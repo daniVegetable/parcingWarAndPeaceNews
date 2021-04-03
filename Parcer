@@ -1,3 +1,4 @@
+'''
 import requests
 from bs4 import BeautifulSoup
 
@@ -53,3 +54,4 @@ with open ("file.html", "w", encoding="utf-8") as file:
         file.write(listHref[i]) # запись ссылки на статью в файл
         file.write("\n")
         file.write("\n")
+'''
